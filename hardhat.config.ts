@@ -1,6 +1,7 @@
 import "dotenv/config";
 import "@typechain/hardhat";
 import "@nomiclabs/hardhat-waffle";
+import "@openzeppelin/hardhat-upgrades";
 import "hardhat-deploy";
 import "hardhat-gas-reporter";
 import { HardhatUserConfig } from "hardhat/types";
