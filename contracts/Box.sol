@@ -7,7 +7,7 @@ contract Box is Initializable {
   uint256 public value;
   event Deploy();
   event Increment();
-  event Decrement();
+  // event Decrement();
 
   function initialize(uint256 _value) public initializer {
     value = _value;
@@ -19,8 +19,8 @@ contract Box is Initializable {
     emit Increment();
   }
 
-  function decrement() public {
-    value--;
-    emit Decrement();
-  }
+  // function decrement() public {
+  //   value--;
+  //   emit Decrement();
+  // }
 }
