@@ -18,7 +18,7 @@
   "license": "ISC",
   "lint-staged": {
     "*.ts": "eslint --fix",
-    "*.{ts,json,md}": "prettier --write"
+    "*.{ts,json,md,sol}": "prettier --write"
   },
   "dependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.5",
